@@ -15,7 +15,7 @@ services:
     container_name: booked-db
   web:
     build:
-      context: './booked-2.7.8/'
+      context: './booked-2.8.5/'
       args:
         PHP_MOD: ${PHP_MOD}
         PHP_VERSION: ${PHP_VERSION}
